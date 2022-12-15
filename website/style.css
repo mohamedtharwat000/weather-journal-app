@@ -1,0 +1,86 @@
+
+body {
+    margin     : 0;
+    padding    : 0;
+    background : #888888;
+    color      : #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+    display    : block;
+    height     : 100%;
+    text-align : center;
+}
+
+label {
+    display: block;
+    font-size: 1.5em;
+}
+
+input {
+    display: block;
+    height: 10vh;
+    width: 40%;
+    background:#3b4a6b;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin: 1em auto;
+    font-size: 1.5em;
+}
+
+button {
+    display: block;
+    width: 40%;
+    height: 10vh;
+    margin: 1em auto 1em auto;
+    background: #3b4a6b;
+    outline: none;
+    border: none;
+    font-size: 1.5em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#dataAdded {
+    display: block;
+    width: 40%;
+    height: 10vh;
+    margin: auto;
+    background-color: #3b4a6b;
+    font-size: 1.5em;
+    overflow: auto;
+}
+
+#entryHolder {
+    display: block;
+    width: 40%;
+    height: 15vh;
+    margin: 1em auto 1em auto;
+    background-color: #3b4a6b;
+    text-align: left;
+    font-size: 1.2em;
+    overflow: auto;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* #entryHolder{
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+} */
